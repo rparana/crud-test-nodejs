@@ -1,0 +1,25 @@
+{
+  "name": "medprev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "NODE_ENV=test jest --detectOpenHandles"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-router": "^9.1.0",
+    "mongoose": "^5.9.26"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "^26.2.1",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
+}
